@@ -1,0 +1,20 @@
+Component,Quantity,Part Number,Description,Supplier,Price
+ATmega328P,1,ATMEGA328P-PU,8-bit AVR Microcontroller,Microchip,$3.50
+L298N,1,L298N,Dual H-Bridge Motor Driver,STMicroelectronics,$2.00
+HC-SR04,2,HC-SR04,Ultrasonic Distance Sensor,Generic,$2.50
+TCRT5000,4,TCRT5000,IR Reflective Sensor,Vishay,$0.50
+16x2 LCD,1,HD44780,Character LCD Display,Generic,$5.00
+7-Segment,1,5461AS,4-digit 7-Segment Display,Generic,$2.00
+RGB LED,1,Common Anode,RGB LED,Generic,$0.30
+LEDs,4,5mm Red,5mm LEDs,Generic,$0.10
+Resistors,20,1/4W,Various Values,Generic,$0.05
+Capacitors,10,Various,Decoupling Caps,Generic,$0.10
+Crystal,1,16MHz,Quartz Crystal,Generic,$0.50
+Push Buttons,4,6x6mm,Tactile Switches,Generic,$0.20
+Voltage Regulator,1,LM7805,5V Regulator,TI,$0.50
+DC Motors,2,GA12-N20,12V 100RPM Gear Motor,Generic,$8.00
+Wheels,2,65mm,Robot Wheels,Generic,$3.00
+Chassis,1,Acrylic,Robot Chassis Kit,Generic,$10.00
+Battery,1,18650,3.7V Li-ion Cell,Generic,$5.00
+Battery Holder,2,18650 Holder,Battery Holder,Generic,$1.00
+Total,,,Total Cost,,$44.25

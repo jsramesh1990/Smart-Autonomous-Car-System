@@ -1,0 +1,53 @@
+smart_autonomous_car/
+│
+├── docs/
+│   ├── system_design.md
+│   ├── pin_configuration.md
+│   ├── state_machine_diagram.png
+│   └── testing_protocol.md
+│
+├── src/
+│   ├── main.c
+│   ├── config.h
+│   ├── peripherals/
+│   │   ├── led_controller.c
+│   │   ├── led_controller.h
+│   │   ├── display_manager.c
+│   │   ├── display_manager.h
+│   │   ├── motor_driver.c
+│   │   ├── motor_driver.h
+│   │   ├── sensor_suite.c
+│   │   └── sensor_suite.h
+│   │
+│   ├── logic/
+│   │   ├── line_follower.c
+│   │   ├── line_follower.h
+│   │   ├── wall_follower.c
+│   │   ├── wall_follower.h
+│   │   ├── obstacle_avoider.c
+│   │   ├── obstacle_avoider.h
+│   │   ├── state_machine.c
+│   │   └── state_machine.h
+│   │
+│   └── utils/
+│       ├── timer.c
+│       ├── timer.h
+│       ├── debug.c
+│       └── debug.h
+│
+├── hardware/
+│   ├── schematic.pdf
+│   ├── pcb/
+│   └── bom.csv
+│
+├── tests/
+│   ├── unit_tests/
+│   └── integration_tests/
+│
+├── scripts/
+│   ├── build.sh
+│   └── flash.sh
+│
+├── README.md
+├── LICENSE
+└── Makefile
