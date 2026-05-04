@@ -1,5 +1,17 @@
 # Smart Autonomous Car System
 
+![Platform](https://img.shields.io/badge/platform-ATmega328P-blue)
+![Language](https://img.shields.io/badge/language-C%2FC%2B%2B-orange)
+![Build](https://img.shields.io/badge/build-Make-success)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-Active%20Development-brightgreen)
+![Embedded](https://img.shields.io/badge/type-Embedded%20Systems-red)
+![Robotics](https://img.shields.io/badge/domain-Robotics-purple)
+![PID Control](https://img.shields.io/badge/control-PID-yellow)
+![Sensors](https://img.shields.io/badge/sensors-IR%20%7C%20Ultrasonic-lightgrey)
+![Power](https://img.shields.io/badge/power-12V%20Battery-blueviolet)
+
+
 ## Overview
 A comprehensive embedded system integrating multiple modules to create an intelligent autonomous vehicle capable of:
 - Line following with PID control
