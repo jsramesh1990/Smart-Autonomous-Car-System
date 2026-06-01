@@ -1,65 +1,78 @@
 # Smart Autonomous Car System
 
 ## Overview
-A comprehensive embedded system integrating multiple modules to create an intelligent autonomous vehicle capable of:
-- Line following with PID control
-- Wall following with ultrasonic sensors
-- Obstacle detection and avoidance
-- Multi-mode operation
-- Real-time status display
-- Visual and auditory feedback
+
+Smart Autonomous Car System is an embedded robotics project that enables a car to navigate automatically using sensors and control algorithms.
 
 ## Features
-1. **5 Operation Modes:**
-   - Manual Control
-   - Line Following
-   - Wall Following
-   - Obstacle Avoidance
-   - Intelligent Auto Mode
 
-2. **Sensor Suite:**
-   - 4x IR sensors for line detection
-   - 2x Ultrasonic sensors (obstacle & wall)
-   - Battery voltage monitoring
-   - Motor current sensing
+### Operating Modes
 
-3. **Display System:**
-   - 16x2 LCD for detailed information
-   - 7-segment display for distance
-   - 8x LEDs for status indication
-   - RGB LED for mode indication
+1. Manual Control
+2. Line Following
+3. Wall Following
+4. Obstacle Avoidance
+5. Intelligent Auto Mode
 
-4. **Control System:**
-   - Dual PID controllers
-   - State machine architecture
-   - Emergency stop system
-   - Error detection and handling
+### Sensors
+
+* 4 IR sensors for line detection
+* 2 Ultrasonic sensors for distance measurement
+* Battery voltage monitoring
+* Motor current monitoring
+
+### Display & Indicators
+
+* 16x2 LCD display
+* 4-digit 7-segment display
+* Status LEDs
+* RGB LED for mode indication
+* Buzzer for alerts
+
+### Control Functions
+
+* PID-based line following
+* PID-based wall following
+* Obstacle detection and avoidance
+* Emergency stop system
+* Error handling and diagnostics
 
 ## Hardware Requirements
-- ATmega328P microcontroller
-- L298N Motor Driver
-- HC-SR04 Ultrasonic sensors
-- TCRT5000 IR sensors
-- 16x2 LCD Display
-- 4-digit 7-segment display
-- RGB LED and indicator LEDs
-- Push buttons for control
-- 12V DC motors with encoders
-- 12V Battery with voltage regulator
 
-## Setup Instructions
-1. Clone the repository
-2. Update pin configurations in `config.h`
-3. Build the project: `make all`
-4. Flash to microcontroller: `make flash`
-5. Connect all hardware according to schematics
-6. Power on and select mode
+* ATmega328P Microcontroller
+* L298N Motor Driver
+* HC-SR04 Ultrasonic Sensors
+* TCRT5000 IR Sensors
+* 16x2 LCD Display
+* 4-Digit 7-Segment Display
+* RGB LED
+* Push Buttons
+* DC Motors with Encoders
+* 12V Battery
 
-## Testing
-```bash
-# Run unit tests
-make test
 
-# Check system diagnostics
-# Press MODE button to cycle through modes
-# Press STOP button for emergency stop
+## Usage
+
+1. Connect all hardware modules.
+2. Power on the system.
+3. Select the required mode using the MODE button.
+4. Press STOP for emergency shutdown.
+5. Monitor status through LCD, LEDs, and displays.
+
+## Safety Features
+
+* Emergency Stop Button
+* Obstacle Detection
+* Battery Monitoring
+* Motor Current Monitoring
+* Fault Detection System
+
+## Applications
+
+* Autonomous Robotics
+* Line Following Vehicles
+* Smart Navigation Systems
+* Educational Embedded Projects
+* Research and Development
+
+
